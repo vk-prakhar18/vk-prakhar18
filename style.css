@@ -1,0 +1,103 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Hero Section */
+.hero {
+    background: url('BG5.jpg') center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    position: relative;
+    padding: 2rem;
+}
+.hero h1{
+    font-size: 3rem;
+}
+.hero .overlay {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+}
+
+/* Navbar */
+.navbar {
+    background: #8b0000;
+    padding: 1rem;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content:center;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #f8f4e3;
+}
+
+/* Content Sections */
+.content {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.content h2 {
+    margin-bottom: 1rem;
+    color: #8b0000;
+}
+
+/* Gallery Section */
+.gallery {
+    padding: 4rem 2rem;
+    text-align: center;
+    border-bottom: 100px;
+    color: #8b0000;
+}
+
+.gallery .images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gallery img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Footer */
+.footer {
+    background: #8b0000;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+.section {
+    background-color: #333;
+}

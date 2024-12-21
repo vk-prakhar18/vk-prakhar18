@@ -1,0 +1,116 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url(BG4.jpg);
+    height: 100vh;
+    align-items: center;
+    padding: 48vh;
+}
+.welcome{
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #f8f4e3;
+    align-items: center;
+    text-align: center;
+}
+.welcome h1{
+    font-family: fantasy;
+    font-size: 4rem;
+    text-align: center;
+    border: 1rex;
+    border-color: #8b0000;
+    padding-top: 2rem;
+}
+.welcome p{
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 2rem;
+}
+.explore-btn {
+    background: #8b0000;
+    background-position: 0%;
+    color: white;
+    padding: 0.8rem 2rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition: background 0.3s;
+    margin-bottom: 5rem;
+}
+.explore-btn:hover {
+    background: #a71d1d;
+}*/
+/* Menu Section */
+.menu-section {
+    padding: 4rem 2rem;
+    background: white;
+    text-align: center;
+}
+.section-title {
+    font-size: 3rem;
+    color: #8b0000;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.menu-categories {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    justify-items: center;
+}
+.category-card {
+    background: #f8f4e3;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 300px;
+}
+.category-card h3 {
+    font-size: 1.8rem;
+    color: #8b0000;
+    margin-bottom: 1rem;
+}
+.category-card ul {
+    list-style: none;
+}
+.category-card li {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+/* Footer */
+.footer {
+    background: #8b0000;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+ol{
+    padding-left: 150px;
+}
+th, td
+{
+    border: 1px solid rgb(060 60 060);
+    padding: 8px 10px;
+    word-spacing: 0cm;
+}
+td{
+    padding-left:200px ;
+    padding-right: 200px;
+}
+table {   
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    padding-left: 100px;
+}
+thead{
+    background-color:brown
+}
+td:last-of-type {
+    text-align: center;
+}
